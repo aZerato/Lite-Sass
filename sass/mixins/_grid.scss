@@ -1,0 +1,12 @@
+$widthColumns: ((100 / $numberColumns) / 100) * 100%;
+
+@mixin gridColumns() {
+	@for $i from 1 through $numberColumns {
+		div.lite-row-#{$i} {
+			width: ($i * $widthColumns);
+			float: left;
+			position: relative;
+			padding-right: $paddingColumns;
+		}
+	}
+}

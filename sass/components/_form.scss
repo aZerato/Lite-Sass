@@ -1,0 +1,29 @@
+form.lite-form {
+	
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		max-width: 100%;
+		border-radius: 3px;
+		border-width: 1px;
+		border-style: solid;
+		font-size: 1em;
+		box-sizing: border-box;
+		margin: 5px;
+		padding: 5px;
+
+		border-color: lighten($flatBlack, 45%);
+		background-color: white;
+		color: $flatBlack;
+
+		&:hover {
+			box-shadow: 0 0 5px lighten($flatBlack, 45%);
+		}
+
+		&:invalid {
+			box-shadow: 0 0 7px $flatRed;
+		}
+	}
+
+}

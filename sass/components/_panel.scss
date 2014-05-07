@@ -1,0 +1,44 @@
+.lite-panel {
+	width: 90%;
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 0 auto;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+
+	// Default
+	border-color: lighten($flatBlack, 45%);
+	background-color: white;
+	color: lighten($flatBlack, 5%);
+
+	&.lite-panel-prim {
+		border-color: darken($flatGreen, 5%);
+		background-color: $flatGreen;
+		color: white;
+	}
+
+	&.lite-panel-succ {
+		border-color: darken($flatBlue, 5%);
+		background-color: $flatBlue;
+		color: white;
+	}
+
+	&.lite-panel-info {
+		border-color: darken($flatTurquoise, 5%);
+		background-color: $flatTurquoise;
+		color: white;
+	}
+
+	&.lite-panel-warn {
+		border-color: darken($flatYellow, 5%);
+		background-color: $flatYellow;
+		color: white;
+	}
+
+	&.lite-panel-dang {
+		border-color: darken($flatRed, 5%);
+		background-color: $flatRed;
+		color: white;
+	}
+}

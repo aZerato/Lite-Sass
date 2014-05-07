@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+	* {
+		font-family: "Quicksand";
+		box-sizing: border-box;
+	}
+
+	a, ul, li {
+		color: inherit;
+		text-decoration: none;
+		list-style: none;
+	}
+
+	a:hover, 
+	button:hover, 
+	input[type="submit"]:hover, 
+	input[type="button"]:hover {
+		cursor: pointer;
+	}
+
+	.clear {
+		clear: both;
+	}
+	.left {
+		float: left;
+	}
+	.right {
+		float: right;
+	}
+}

@@ -1,0 +1,77 @@
+a.lite-btn, 
+button.lite-btn, 
+input[type=submit].lite-btn, 
+input[type=button].lite-btn {
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 1em;
+	padding: 5px;
+	margin: 5px;
+
+	// default
+	border-color: lighten($flatBlack, 45%);
+	background-color: white;
+	color: lighten($flatBlack, 5%);
+
+	&:hover {
+		// default
+		box-shadow: inset 0px 0 2px darken(white, 45%);
+		color: $flatBlack;
+	}
+
+	&.lite-btn-prim {
+		border-color: darken($flatGreen, 5%);
+		background-color: $flatGreen;
+		color: white;
+		&:hover {
+			box-shadow: inset 0px 0 2px darken($flatGreen, 35%);
+		}
+	}
+
+	&.lite-btn-succ {
+		border-color: darken($flatBlue, 5%);
+		background-color: $flatBlue;
+		color: white;
+		&:hover {
+			box-shadow: inset 0px 0 2px darken($flatBlue, 35%);
+		}
+	}
+
+	&.lite-btn-info {
+		border-color: darken($flatTurquoise, 5%);
+		background-color: $flatTurquoise;
+		color: white;
+		&:hover {
+			box-shadow: inset 0px 0 2px darken($flatTurquoise, 35%);
+		}
+	}
+
+	&.lite-btn-warn {
+		border-color: darken($flatYellow, 5%);
+		background-color: $flatYellow;
+		color: white;
+		&:hover {
+			box-shadow: inset 0px 0 2px darken($flatYellow, 35%);
+		}
+	}
+
+	&.lite-btn-dang {
+		border-color: darken($flatRed, 5%);
+		background-color: $flatRed;
+		color: white;
+		&:hover {
+			box-shadow: inset 0px 0 2px darken($flatRed, 35%);
+		}
+	}
+
+	&.lite-btn-small {
+		font-weight: bold;
+		font-size: 0.6em;
+	}
+
+	&.lite-btn-large {
+		font-weight: bold;
+		font-size: 2em;
+	}
+}

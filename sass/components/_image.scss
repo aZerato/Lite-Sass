@@ -1,0 +1,21 @@
+.lite-img {
+	background-color: white;
+	max-width: 100%;
+	box-shadow: 0 0 5px $flatBlack;
+
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+
+	&.lite-img-rnd {
+		border-radius: 50%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	// Center image : add this class to ".lite-row-{number}"
+	.lite-row-img {
+		text-align: center;
+	}
+
+}

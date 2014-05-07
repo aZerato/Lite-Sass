@@ -1,0 +1,45 @@
+.lite-container {
+	width: 100%;
+	margin : 0 auto;
+	position: relative;
+	content: " ";
+	display: table;
+
+	&:before,
+	&:after {
+		clear: both;
+		content: " ";
+    	display: table;
+	}
+
+	// Generate Grid
+	@include gridColumns();
+
+	div[class^="lite-row"]:before,
+	div[class^="lite-row"]:after {
+		clear: both;
+		content: " ";
+		display: table;
+	}
+
+	div[class^="lite-row"] .lite-row-content {
+		padding: 10px;
+	}
+
+	// Remove padding ($paddingColumns)
+	> div[class^="lite-row"]:last-child {
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.lite-container {
+		
+		div[class^="lite-row"] {
+			width: 100%;
+			padding: 10px;
+			float: none;
+		}
+		
+	}
+}
