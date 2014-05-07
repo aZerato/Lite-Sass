@@ -28,5 +28,5 @@ Components
 - images
 - panels
 
-Come soon : table / alert / animate
+Come soon : table / alert
 
