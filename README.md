@@ -3,6 +3,8 @@ Lite-Sass
 
 Micro Sass Framework for Responsive Website with no javascript !
 
+![Lite-Sass](https://github.com/aZerato/Lite-Sass/blob/master/sample.jpg?raw=true)
+
 How to
 ---
 
