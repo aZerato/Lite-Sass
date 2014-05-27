@@ -1,7 +1,7 @@
 module.exports = sass = {
 	compile: {
 		options: {
-			style: 'expanded'
+			outputStyle: 'nested'
 		},
 		files: {
 			'<%= config.test %>/styles/lite.css': '<%= config.sass %>/register.scss'
@@ -9,7 +9,7 @@ module.exports = sass = {
 	},
 	build: {
 		options: {
-			style: 'compressed'
+			outputStyle: 'compressed'
 		},
 		files: {
 			'<%= config.build %>/styles/lite.css': '<%= config.sass %>/register.scss'

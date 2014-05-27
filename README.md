@@ -15,8 +15,10 @@ Download and with your favorite CLI tape :
 npm install
 grunt build (create 'build/' folder with all you need)
 or
-grunt compile (create 'test/' folder, you can edit sass and it's auto re-compilated in the 'test/' folder maybe you need relaunch this task 2 or 3 times)
+grunt compile (create 'test/' folder, you can edit sass and it's auto re-compilated in the 'test/' folder maybe you need relaunch this task 2 or 3 times & open in your browser test/index.html)
 ```
+
+
 Architecture
 ---
 
