@@ -7,6 +7,8 @@ Micro Sass Framework for Responsive Website with no javascript !
 
 (IE 9 mini !)
 
+> Demo : http://jp.cartoux.net/dev/Lite-Sass-master/test/index.html
+
 How to
 ---
 
